@@ -1,4 +1,11 @@
 # Endpoints #
+
+### Table of contents ###
+
+1. [Function Soap](#function-soap)
+2. [Service](#service)
+3. [XML Soap](#xml-soap)
+
 Endpoints play a crucial role in the LETY Project, enabling communication between systems to exchange order summaries, new user registrations, account information updates for EVO synchronization, and delivery service range queries.
 To manage endpoints effectively, the project utilizes three main files: 
   
