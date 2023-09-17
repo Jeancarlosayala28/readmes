@@ -8,10 +8,6 @@
     2. [Getting Started](#getting-started)  
 2. [NPM scripts](#npm-scripts)
     1. [Compiling your application](#compiling-your-application)
-3. [Endpoints](#endpoints)
-    1. [Function Soap](docs/endpoints.md#function-soap)
-    2. [Service](docs/endpoints.md#service)
-    3. [XML Soap](docs/endpoints.md#xml-soap)
     
 This project contains differents cartridges that we use for his functionality. 
 Pasteleria Lety has a base cartridge (`app_storefront_base`) provided by Commerce Cloud that is never directly customized or edited.
@@ -78,7 +74,10 @@ npm run build
 If you are having an issue compiling scss files, try running 'npm rebuild node-sass' from within your local repo.
 ## Connector Documentation ##
 
-1. [Endpoints](docs/endpoints.md) 
-2. [Date Time Picker](docs/date_time_picker)
+3. [Endpoints](#endpoints)
+    1. [Function Soap](docs/endpoints.md#function-soap)
+    2. [Service](docs/endpoints.md#service)
+    3. [XML Soap](docs/endpoints.md#xml-soap)
+2. [Date Time Picker](docs/date_time_picker.md)
 
 [Back to the top](#Top)
