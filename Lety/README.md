@@ -10,8 +10,8 @@
     1. [Compiling your application](#compiling-your-application)
 3. [Endpoints](#endpoints)
     1. [Function Soap](docs/endpoints.md#function-soap)
-    2. [Service](docs/endpoints.md#function-soap#service)
-    3. [XML Soap](docs/endpoints.md#function-soap#xml-soap)
+    2. [Service](docs/endpoints.md#service)
+    3. [XML Soap](docs/endpoints.md#xml-soap)
     
 This project contains differents cartridges that we use for his functionality. 
 Pasteleria Lety has a base cartridge (`app_storefront_base`) provided by Commerce Cloud that is never directly customized or edited.
