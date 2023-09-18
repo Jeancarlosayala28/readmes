@@ -32,7 +32,7 @@ in the shipping method using the `allSM`.
   };
 ```
 
-<a name="data-picker"></a>
+<a name="all-sm"></a>
 This **allSM** call the attribute `data-store-hours` it contains a _JSON_ with the delivery hours and
 pick up hours, each delivery method can have a different store hours, even if Pasteleria Lety wants another delivery method we can add it in the _JSON_ with different hours.
 How we can define the store hours in the proyect?, we need to go into the business manager to define it
@@ -73,7 +73,7 @@ Here you can see a _JSON_ object with `delviery method`, `weekdays`, `open hours
 }
 ```
 
-<a name="all-sm"></a>
+<a name="data-picker"></a>
 Also we have another function that complement the main function for example `updateButtonsDate()`,
 `updateStoreDay()` these two functions help us to update the HTML elements in the store. We have an other function specialy to
 [special orders]() with name `handleForm()`, this function makes a calendar using a datepicker with jQuery (if you want to see more about datapicker you can go to 
