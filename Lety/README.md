@@ -4,14 +4,14 @@
 ### Table of contents ###
 
 1. [Pasteleria Lety](#pasteleria-lety)  
-    1. [The latest version](#the-latest-version)  
-    2. [Getting Started](#getting-started)  
+
+    1.1 [The latest version](#the-latest-version)  
+
+    1.2 [Getting Started](#getting-started)  
+
 2. [NPM scripts](#npm-scripts)
-    1. [Compiling your application](#compiling-your-application)
-3. [Endpoints](#endpoints)
-    1. [Function Soap](docs/endpoints.md#function-soap)
-    2. [Service](docs/endpoints.md#function-soap#service)
-    3. [XML Soap](docs/endpoints.md#function-soap#xml-soap)
+    
+    2.1 [Compiling your application](#compiling-your-application)
     
 This project contains differents cartridges that we use for his functionality. 
 Pasteleria Lety has a base cartridge (`app_storefront_base`) provided by Commerce Cloud that is never directly customized or edited.
@@ -78,7 +78,32 @@ npm run build
 If you are having an issue compiling scss files, try running 'npm rebuild node-sass' from within your local repo.
 ## Connector Documentation ##
 
-1. [Endpoints](docs/endpoints.md) 
-2. [Date Time Picker](docs/date_time_picker)
+1. [Endpoints](docs/endpoints.md)
+
+    1.1 [Function Soap](docs/endpoints.md#function-soap)
+    
+    1.2 [Service](docs/endpoints.md#service)
+
+    1.3 [XML Soap](docs/endpoints.md#xml-soap)
+
+2. [Date Time Picker](docs/date_time_picker.md)
+
+    2.1 [Date Time JS](docs/date_time_picker.md#date-time-js)
+
+    2.2 [All SM](docs/date_time_picker.md#all-sm)
+    
+    2.2 [Data Picker](docs/date_time_picker.md#data-picker)
+
+    2.3 [Controllers](docs/date_time_picker.md#controllers)
+
+3. [special_orders](docs/special_orders.md)
+
+    2.1 [Cart Controller](docs/special_orders.md#cart-controller)
+
+    2.2 [Inventory](docs/special_orders.md#inventory)
+
+    2.3 [Check Inventory](docs/special_orders.md#check-inventory)
+
+    2.4 [Handle Exist](docs/special_orders.md#handle-exist)
 
 [Back to the top](#Top)
