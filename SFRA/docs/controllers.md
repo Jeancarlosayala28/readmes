@@ -117,6 +117,7 @@ information first using `prepend`
 
 ~~~javascript
 var COHelpers = require("*/cartridge/scripts/checkout/checkoutHelpers")
+var BasketMgr = require('dw/order/BasketMgr');
 
 server.prepend('Show', (req,res,next) => {
   const viewData = res.getViewData();

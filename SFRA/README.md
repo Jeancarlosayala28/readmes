@@ -21,7 +21,7 @@ This change is intended to allow for easier adoption of new features and bug fix
 
 ### The latest version ###
 
-The latest version of Pasteleria Lety is `1.9.0`
+The latest version of SFRA is `6.3.0`
 
 ### Getting Started ###
 
@@ -76,5 +76,27 @@ npm run build
 ~~~
 
 If you are having an issue compiling scss files, try running 'npm rebuild node-sass' from within your local repo.
+
+
+# Way of work #
+
+We need to have a way of work in our projects from cartridge 
+to how to extend a controller.
+
+### Cartridges ###
+
+We allways need to work in our custom cartridge if we want to
+extend a controller, helper, template, create a service conection or
+even if we need to create a js file. We can use
+[File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
+to duplicate files more easy and fast.
+
+### Extra Files ###
+
+1. [Controllers](docs/controllers.md)
+
+    1.1 [Extend Controllers](docs/controllers.md#extend-controllers)
+
+2. [Helpers](docs/helpers.md)
 
 [Back to the top](#Top)
